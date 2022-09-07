@@ -5,6 +5,7 @@ bot = commands.Bot(command_prefix="your prefix here") # add a prefix for your bo
 
 token = "your token here" #add your discord bots token here
 
+#bot online -
 @bot.event
 async def on_ready():
     print ("the bot is ready!")
